@@ -28,7 +28,7 @@ class PersonTest {
         //Act
         boolean returnValue = person.setPostalCode("0800AA");
         //Assert
-        Assertions.assertFalse(true);
+        Assertions.assertFalse(returnValue);
     }
 
 
